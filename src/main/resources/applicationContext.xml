@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--creer un objet doa-->
+    <bean id="doa" class="ext.DoaImpWS"></bean>
+    <!--creer un objet metier-->
+    <bean id="metier" class="metier.MetierImpl">
+        <!--appel le set avec proprety-->
+        <!--<property name="dao" ref="doa"></property>-->
+        <!--on utilisant constructeur d'initialisation-->
+        <constructor-arg ref="doa"></constructor-arg>
+    </bean>
+</beans>
