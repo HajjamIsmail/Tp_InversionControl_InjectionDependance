@@ -1,0 +1,48 @@
+# Le projet ignore les fichiers
+
+# Maven
+.mvn
+* .classpath
+* .projet
+* .paramètres
+/ bin / *
+/ cible / *
+
+# niveau
+.gradle
+/ construire
+
+# Fichier de classe compilé
+* .classe
+
+# Fichiers de package
+* .jar
+* .guerre
+* .oreille
+* .zip
+* .tar.gz
+* .rar
+
+
+# IDE JetBrains
+.idée /
+* .iml
+
+# Éclipse
+.projet
+.classpath
+.réglages
+
+
+# Fichier de configuration du dossier
+Desktop.ini
+
+# Corbeille utilisée sur les partages de fichiers
+$RECYCLE.BIN /
+
+# Dossiers supplémentaires
+/ inutilisé
+** / .DS_Store
+
+# printemps
+.springBeans
